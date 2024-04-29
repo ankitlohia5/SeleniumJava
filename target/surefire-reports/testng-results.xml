@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-29T19:02:10 IST" name="Suite" finished-at="2024-04-29T19:02:19 IST" duration-ms="9225">
+    <groups>
+    </groups>
+    <test started-at="2024-04-29T19:02:10 IST" name="Test" finished-at="2024-04-29T19:02:19 IST" duration-ms="9225">
+      <class name="browserStackTC.BrowserStackSetup">
+        <test-method is-config="true" signature="setup()[pri:0, instance:browserStackTC.BrowserStackSetup@1bd4fdd]" started-at="2024-04-29T19:02:10 IST" name="setup" finished-at="2024-04-29T19:02:12 IST" duration-ms="1770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigate_to_homepage_click_on_getstarted()[pri:1, instance:browserStackTC.BrowserStackSetup@1bd4fdd]" started-at="2024-04-29T19:02:14 IST" name="navigate_to_homepage_click_on_getstarted" finished-at="2024-04-29T19:02:18 IST" duration-ms="4186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_homepage_click_on_getstarted -->
+        <test-method signature="enter_userDetails(java.util.HashMap)[pri:2, instance:browserStackTC.BrowserStackSetup@1bd4fdd]" started-at="2024-04-29T19:02:18 IST" name="enter_userDetails" data-provider="userData" finished-at="2024-04-29T19:02:19 IST" duration-ms="436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fullName=TestUser1, password=password1, email=testuser1@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_userDetails -->
+        <test-method signature="enter_userDetails(java.util.HashMap)[pri:2, instance:browserStackTC.BrowserStackSetup@1bd4fdd]" started-at="2024-04-29T19:02:19 IST" name="enter_userDetails" data-provider="userData" finished-at="2024-04-29T19:02:19 IST" duration-ms="388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fullName=TestUser2, password=password2, email=testuser2@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_userDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:browserStackTC.BrowserStackSetup@1bd4fdd]" started-at="2024-04-29T19:02:19 IST" name="teardown" finished-at="2024-04-29T19:02:19 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- browserStackTC.BrowserStackSetup -->
+      <class name="browserStackTC.checkboxes">
+        <test-method signature="testingcheckboxes()[pri:0, instance:browserStackTC.checkboxes@42a48628]" started-at="2024-04-29T19:02:12 IST" name="testingcheckboxes" finished-at="2024-04-29T19:02:14 IST" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingcheckboxes -->
+      </class> <!-- browserStackTC.checkboxes -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

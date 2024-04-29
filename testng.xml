@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="browserStackTC.BrowserStackSetup"/>
+      <class name="browserStackTC.checkboxes"/>
+    </classes>
+  </test> 
+</suite> 

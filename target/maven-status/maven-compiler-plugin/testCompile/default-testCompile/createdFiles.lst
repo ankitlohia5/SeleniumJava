@@ -1,0 +1,7 @@
+demo\POM\BrowserStackSignUpPage.class
+demo\POM\BrowserStackHomePage.class
+browserStackTC\BrowserStackSetup.class
+Baseclass\RetryAnalyzer.class
+Utility\Util.class
+Baseclass\baseclass.class
+browserStackTC\checkboxes.class
