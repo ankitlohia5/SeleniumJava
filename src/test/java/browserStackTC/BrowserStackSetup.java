@@ -43,6 +43,7 @@ public class BrowserStackSetup extends baseclass {
 		bp.enterBusinessEmail(input.get("email"));
 		bp.enterPasswrod(input.get("password"));
 		takeSnapShot("SignupPageagain");
+	
 	}
 
 	
